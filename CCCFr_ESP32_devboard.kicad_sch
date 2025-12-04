@@ -5684,6 +5684,16 @@
 		)
 		(uuid "0ab969b5-95b4-418b-9a25-c27337bdb17e")
 	)
+	(text "power on LED"
+		(exclude_from_sim no)
+		(at 44.196 53.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13940d9f-6b71-4bf9-acf6-f9d902cf645d")
+	)
 	(text "500mA"
 		(exclude_from_sim no)
 		(at 50.292 98.298 0)
@@ -5724,7 +5734,7 @@
 		)
 		(uuid "43a3078e-062d-4edc-8591-74e6240981fb")
 	)
-	(text "EXTRA MEMORY"
+	(text "FLASH MEMORY"
 		(exclude_from_sim no)
 		(at 429.514 17.272 0)
 		(effects
@@ -5743,6 +5753,16 @@
 			)
 		)
 		(uuid "957ed894-92e9-45cd-804f-86586ef55611")
+	)
+	(text "For blinking\nLED test: GPIO01\n"
+		(exclude_from_sim no)
+		(at 68.326 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b039e76e-ae5a-44a0-90ec-0a4ed8547313")
 	)
 	(text "POWER 5V 3V3\n"
 		(exclude_from_sim no)
@@ -5873,6 +5893,12 @@
 		(uuid "677b4f62-c805-482f-9d03-72bb198d4d91")
 	)
 	(junction
+		(at 237.49 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b65d74c-07b8-407e-b5a9-bdbc16798512")
+	)
+	(junction
 		(at 71.12 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5889,6 +5915,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70aab4ce-3c0d-4142-8e19-fd92020ced41")
+	)
+	(junction
+		(at 252.73 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d74a608-193b-49e6-9abd-03c43424fdb1")
 	)
 	(junction
 		(at 278.13 33.02)
@@ -5915,6 +5947,12 @@
 		(uuid "88d383ee-d199-45f1-ab1d-378f42649da9")
 	)
 	(junction
+		(at 203.2 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "950c33b9-9063-4065-a45c-6db04c46d2ef")
+	)
+	(junction
 		(at 219.71 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5937,6 +5975,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0e85e57-9006-472e-845c-c92421105075")
+	)
+	(junction
+		(at 220.98 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a473b5d7-7f24-4536-8177-18e98e38a6dc")
 	)
 	(junction
 		(at 29.21 175.26)
@@ -5967,12 +6011,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b65dbf78-09c4-45f3-a693-f35b495c1d6c")
-	)
-	(junction
-		(at 222.25 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba70fa1b-68b5-4ad2-8472-54ce41fc0d6a")
 	)
 	(junction
 		(at 214.63 44.45)
@@ -6041,6 +6079,12 @@
 		(uuid "f33f8866-3d2d-490a-ab5d-eb1578ab2580")
 	)
 	(junction
+		(at 185.42 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f69b256b-5829-4c65-b0d2-205008076405")
+	)
+	(junction
 		(at 44.45 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6051,6 +6095,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd433d41-285e-4e20-85de-e297e23c5e70")
+	)
+	(junction
+		(at 269.24 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff08eb1b-5b4d-47a4-b0f9-b040dcdae742")
 	)
 	(junction
 		(at 107.95 33.02)
@@ -6064,13 +6114,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 101.6) (xy 222.25 102.87)
+			(xy 237.49 149.86) (xy 237.49 152.4)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "004a6f92-bfa9-4850-9386-3a0e6172035d")
+		(uuid "00a33667-fc77-4ca7-8ca2-2e65dd12024d")
 	)
 	(wire
 		(pts
@@ -6204,6 +6254,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 152.4) (xy 185.42 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "095ecf5c-119d-496b-a59d-c3c93bb4edff")
+	)
+	(wire
+		(pts
 			(xy 67.31 173.99) (xy 73.66 173.99)
 		)
 		(stroke
@@ -6211,6 +6271,16 @@
 			(type default)
 		)
 		(uuid "0a00fbee-aa51-4c38-be8b-75d9098d6c72")
+	)
+	(wire
+		(pts
+			(xy 203.2 139.7) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0a900efa-befc-4c3f-87a2-09be9033ff82")
 	)
 	(wire
 		(pts
@@ -6231,6 +6301,36 @@
 			(type solid)
 		)
 		(uuid "0b7f188b-194a-43e3-a697-61062788e7b5")
+	)
+	(wire
+		(pts
+			(xy 269.24 149.86) (xy 269.24 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0bccece6-2bce-462f-83a7-5e0719164b0d")
+	)
+	(wire
+		(pts
+			(xy 269.24 152.4) (xy 266.7 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ca2f705-318f-456b-98a6-93557d4cc518")
+	)
+	(wire
+		(pts
+			(xy 252.73 149.86) (xy 252.73 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0daf0714-26ce-4e8c-9c8a-9a3163790ba7")
 	)
 	(wire
 		(pts
@@ -6324,16 +6424,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 222.25 91.44)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1a60923a-201e-42c8-ac0c-b4cda5640e54")
-	)
-	(wire
-		(pts
 			(xy 73.66 128.27) (xy 68.58 128.27)
 		)
 		(stroke
@@ -6404,6 +6494,26 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 149.86) (xy 185.42 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ef4914e-f512-40d3-b0ee-220d146051da")
+	)
+	(wire
+		(pts
+			(xy 185.42 139.7) (xy 185.42 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1f61bf19-c012-4aef-9683-606018666be1")
+	)
+	(wire
+		(pts
 			(xy 46.99 186.69) (xy 46.99 187.96)
 		)
 		(stroke
@@ -6461,6 +6571,16 @@
 			(type solid)
 		)
 		(uuid "21fa2f2b-109f-4548-acbe-721b508faef1")
+	)
+	(wire
+		(pts
+			(xy 203.2 152.4) (xy 200.66 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "221aec80-4df6-4e94-9b0e-a59ef8798948")
 	)
 	(wire
 		(pts
@@ -6531,16 +6651,6 @@
 			(type default)
 		)
 		(uuid "287a6ea2-0566-424b-95bc-68f2fb27929b")
-	)
-	(wire
-		(pts
-			(xy 222.25 113.03) (xy 222.25 119.38)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2b60645a-971f-478a-b7c4-d68740755a45")
 	)
 	(wire
 		(pts
@@ -6834,6 +6944,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 163.83) (xy 237.49 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "43bcc3cf-3910-499f-9a75-9b0d5b7416cc")
+	)
+	(wire
+		(pts
 			(xy 151.13 166.37) (xy 151.13 154.94)
 		)
 		(stroke
@@ -6841,6 +6961,16 @@
 			(type solid)
 		)
 		(uuid "43bd8dbc-8b36-4c39-9788-cfd3fa7bb3c0")
+	)
+	(wire
+		(pts
+			(xy 237.49 152.4) (xy 234.95 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "44043887-1741-4944-addd-01f635e37c7a")
 	)
 	(wire
 		(pts
@@ -6914,6 +7044,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 152.4) (xy 269.24 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4f817020-f3ce-4861-a940-b90bb8d9203a")
+	)
+	(wire
+		(pts
 			(xy 139.7 109.22) (xy 139.7 113.03)
 		)
 		(stroke
@@ -6951,6 +7091,16 @@
 			(type default)
 		)
 		(uuid "515c84ad-4c28-42e9-9049-b3412a94d1e9")
+	)
+	(wire
+		(pts
+			(xy 252.73 152.4) (xy 250.19 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "53d16817-103e-4b0b-a2bc-cc9516d2d81a")
 	)
 	(wire
 		(pts
@@ -7164,6 +7314,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 152.4) (xy 220.98 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "63c51774-90cb-45c4-a2a4-c7c4be41f0dd")
+	)
+	(wire
+		(pts
 			(xy 67.31 163.83) (xy 73.66 163.83)
 		)
 		(stroke
@@ -7344,16 +7504,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 99.06) (xy 222.25 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "756c336e-7e16-4800-8265-4b61123180cf")
-	)
-	(wire
-		(pts
 			(xy 132.08 46.99) (xy 133.35 46.99)
 		)
 		(stroke
@@ -7391,6 +7541,16 @@
 			(type solid)
 		)
 		(uuid "78af6639-d70f-4ff0-8564-d7f2168236f1")
+	)
+	(wire
+		(pts
+			(xy 220.98 139.7) (xy 220.98 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "78b36b7f-6a47-4549-9c5f-9fcb00df16d7")
 	)
 	(wire
 		(pts
@@ -7541,6 +7701,16 @@
 			(type solid)
 		)
 		(uuid "82c4e980-3525-4865-b4d9-4f4fcb4e576c")
+	)
+	(wire
+		(pts
+			(xy 252.73 163.83) (xy 252.73 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "83d14686-ee13-40df-bf99-a820f92d5d3b")
 	)
 	(wire
 		(pts
@@ -7794,6 +7964,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 149.86) (xy 203.2 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9bd5bc44-95fd-4be2-aff9-a2cb6a079910")
+	)
+	(wire
+		(pts
 			(xy 113.03 71.12) (xy 113.03 68.58)
 		)
 		(stroke
@@ -7801,6 +7981,16 @@
 			(type solid)
 		)
 		(uuid "9bd86171-204a-48e3-9ed9-c6717aceda9b")
+	)
+	(wire
+		(pts
+			(xy 185.42 163.83) (xy 185.42 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9c00c180-ccc5-49ff-b7f6-fda848179e72")
 	)
 	(wire
 		(pts
@@ -7854,6 +8044,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 139.7) (xy 237.49 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9f3518ae-b3de-40a1-87f2-f75f29ffbd7b")
+	)
+	(wire
+		(pts
 			(xy 55.88 110.49) (xy 55.88 109.22)
 		)
 		(stroke
@@ -7891,6 +8091,16 @@
 			(type solid)
 		)
 		(uuid "a3d0342f-06db-4bd8-9188-489d6898d7da")
+	)
+	(wire
+		(pts
+			(xy 203.2 152.4) (xy 203.2 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a4673581-516a-4254-bfbf-f6554ea0b515")
 	)
 	(wire
 		(pts
@@ -8024,6 +8234,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 152.4) (xy 182.88 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae037059-f7dc-4b29-ad24-7aaaefa5e001")
+	)
+	(wire
+		(pts
 			(xy 97.79 93.98) (xy 96.52 93.98)
 		)
 		(stroke
@@ -8121,6 +8341,16 @@
 			(type solid)
 		)
 		(uuid "b9a31493-47d5-4728-bf2e-b8b9d5a7a486")
+	)
+	(wire
+		(pts
+			(xy 252.73 139.7) (xy 252.73 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ba35fd10-c22e-48ee-a3f5-e48bf9f412a5")
 	)
 	(wire
 		(pts
@@ -8254,6 +8484,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 152.4) (xy 237.49 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c70c7251-340a-4b00-8e86-08dced505cfa")
+	)
+	(wire
+		(pts
 			(xy 67.31 35.56) (xy 67.31 34.29)
 		)
 		(stroke
@@ -8361,6 +8601,16 @@
 			(type solid)
 		)
 		(uuid "d5a5e0fb-c46b-4a8a-b6c8-0e91a23fa958")
+	)
+	(wire
+		(pts
+			(xy 220.98 163.83) (xy 220.98 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5f55716-6cb5-4356-9b3a-019e2323538d")
 	)
 	(wire
 		(pts
@@ -8474,16 +8724,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 101.6) (xy 219.71 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d87f168b-d7af-47c2-94fa-258fd444683e")
-	)
-	(wire
-		(pts
 			(xy 278.13 31.75) (xy 278.13 33.02)
 		)
 		(stroke
@@ -8554,6 +8794,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 149.86) (xy 220.98 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e003a360-6959-41cd-91d6-1e594c78e499")
+	)
+	(wire
+		(pts
+			(xy 269.24 163.83) (xy 269.24 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e0167c12-1893-44c9-9149-96e464aecf46")
+	)
+	(wire
+		(pts
 			(xy 101.6 110.49) (xy 101.6 114.3)
 		)
 		(stroke
@@ -8591,6 +8851,16 @@
 			(type solid)
 		)
 		(uuid "e52f803c-a9ba-4e74-9cbf-1a501afbabaf")
+	)
+	(wire
+		(pts
+			(xy 269.24 139.7) (xy 269.24 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e6b5d86a-1d85-4171-928d-9087c95a79f9")
 	)
 	(wire
 		(pts
@@ -8784,6 +9054,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 163.83) (xy 203.2 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f3eec5de-8f49-4833-8068-811d8f90ffdd")
+	)
+	(wire
+		(pts
 			(xy 25.4 182.88) (xy 25.4 177.8)
 		)
 		(stroke
@@ -8821,6 +9101,16 @@
 			(type default)
 		)
 		(uuid "f5d0c0ba-7c5e-46bc-be70-e4556f984146")
+	)
+	(wire
+		(pts
+			(xy 252.73 152.4) (xy 252.73 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f663871f-6f57-4d6c-abc8-c989ad03820e")
 	)
 	(wire
 		(pts
@@ -8871,6 +9161,16 @@
 			(type solid)
 		)
 		(uuid "f8c912f3-4bbe-430a-b75a-562d7b43ea7c")
+	)
+	(wire
+		(pts
+			(xy 220.98 152.4) (xy 218.44 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f94ed3ff-b906-4b10-895e-7f1eacef8e11")
 	)
 	(wire
 		(pts
@@ -9034,6 +9334,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO37"
+		(shape input)
+		(at 234.95 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08ee8d94-6dbf-469e-83d9-3b07e5c9f021")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.6105 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9210,28 +9532,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO14"
-		(shape input)
-		(at 219.71 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ea0c644-ff66-42a1-92b4-4b5df3b3015d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.3705 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9513,50 +9813,6 @@
 		(uuid "46fca57a-3eae-439b-8552-f6d57c50a6d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 409.3247 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO36"
-		(shape input)
-		(at 403.86 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "478f34d6-adb9-4de9-8afb-a7945d6d569e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.1995 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO35"
-		(shape input)
-		(at 403.86 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "49a5a91c-e78e-400a-bc74-6b23cf29ad6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.1995 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,28 +10394,6 @@
 			)
 		)
 	)
-	(global_label "IO39"
-		(shape input)
-		(at 403.86 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "879f7316-7add-4d8d-ba3a-b61995fc141e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.1995 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO5"
 		(shape input)
 		(at 377.19 38.1 0)
@@ -10468,6 +10702,28 @@
 			)
 		)
 	)
+	(global_label "IO35"
+		(shape input)
+		(at 200.66 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9a7c6b7-939f-41cf-a70a-4464bf9ae627")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.3205 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO40"
 		(shape input)
 		(at 129.54 166.37 0)
@@ -10503,28 +10759,6 @@
 		(uuid "aa66b8f5-f30e-4752-bebf-422e8628dac7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.9595 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO37"
-		(shape input)
-		(at 403.86 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad3584f6-80c6-4628-9070-7c5876689664")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.1995 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10644,6 +10878,28 @@
 			)
 		)
 	)
+	(global_label "IO38"
+		(shape input)
+		(at 250.19 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b98b2e00-e20e-4d08-a2b6-58b46bb39672")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.8505 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO36"
 		(shape input)
 		(at 124.46 156.21 0)
@@ -10710,28 +10966,6 @@
 			)
 		)
 	)
-	(global_label "IO38"
-		(shape input)
-		(at 403.86 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c20af419-dc9c-4117-b169-466b2a8e61af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.1995 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO14"
 		(shape input)
 		(at 377.19 50.8 0)
@@ -10754,28 +10988,6 @@
 			)
 		)
 	)
-	(global_label "IO34"
-		(shape input)
-		(at 403.86 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c365cc28-9a5a-4955-98d7-88960b1d2f76")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.1995 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPISCK"
 		(shape input)
 		(at 424.18 33.02 180)
@@ -10789,6 +11001,28 @@
 		(uuid "c907619e-70fa-4298-ac61-5e6193d02a2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 414.361 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO36"
+		(shape input)
+		(at 218.44 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9799e80-c114-467a-9bc2-7f33b8dde568")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.1005 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11064,6 +11298,28 @@
 	)
 	(global_label "IO39"
 		(shape input)
+		(at 266.7 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "def1e1ec-2206-48bb-8fd2-84d2257b9b48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.3605 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO39"
+		(shape input)
 		(at 129.54 163.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11257,6 +11513,93 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "IO34"
+		(shape input)
+		(at 182.88 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd90ed4c-2d88-4e41-af78-b7c032842996")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.5405 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0060888a-ffa9-452e-9c16-8cf189b3609e")
+		(property "Reference" "#PWR037"
+			(at 220.98 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "690e5254-0c77-47ff-8aa6-9c9514f5922c")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#PWR037")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11636,101 +11979,6 @@
 			(project ""
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 222.25 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "060ae711-ca98-492b-b1a0-5463486910b7")
-		(property "Reference" "BTN1"
-			(at 223.52 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BTN"
-			(at 223.52 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
-			(at 217.17 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 222.25 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNF PART NUMBER" "C318884"
-			(at 223.52 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "PARTNO" ""
-			(at 222.25 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C318884"
-			(at 222.25 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "308bff99-555f-4c4b-96b6-de0300670839")
-		)
-		(pin "2"
-			(uuid "88657518-f0a2-4b0e-9f1e-6de144da684a")
-		)
-		(instances
-			(project "esp32_mine"
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "BTN1")
 					(unit 1)
 				)
 			)
@@ -12129,6 +12377,71 @@
 		)
 	)
 	(symbol
+		(lib_id "MaTouch 1.9“ TFT Breakout v1.1-eagle-import:+3V3")
+		(at 252.73 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ad3baea-f842-44ba-af11-8427f103cfc9")
+		(property "Reference" "#+3V014"
+			(at 252.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 255.524 137.16 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43ea7cd9-b118-4c5c-af83-4be39d5d0de7")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#+3V014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 149.86 0)
 		(unit 1)
@@ -12188,71 +12501,6 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bc195e8-23b2-4736-93ee-fc2449beb0d4")
-		(property "Reference" "#PWR021"
-			(at 222.25 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14fabfc8-7fec-4c04-9e44-17b1cc40a855")
-		)
-		(instances
-			(project "esp32_mine"
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12362,6 +12610,101 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 203.2 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cfa99a2-afa6-459f-9ef5-c5f720641aee")
+		(property "Reference" "BTN3"
+			(at 204.47 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BTN"
+			(at 204.47 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 198.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 203.2 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF PART NUMBER" "C318884"
+			(at 204.47 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "PARTNO" ""
+			(at 203.2 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at 203.2 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4245eaef-594a-4246-b941-1b9773805321")
+		)
+		(pin "2"
+			(uuid "434f72ca-72b0-4859-8f48-3625d658a735")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "BTN3")
 					(unit 1)
 				)
 			)
@@ -13002,6 +13345,71 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aa46640-f961-4e80-a7c9-a5c230187011")
+		(property "Reference" "#PWR040"
+			(at 269.24 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06cf6e5d-066a-4324-81ea-a28b01eca20e")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -14174,6 +14582,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 252.73 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aad5525-b3bc-4005-9b2e-bf21bd567902")
+		(property "Reference" "BTN6"
+			(at 254 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BTN"
+			(at 254 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 247.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF PART NUMBER" "C318884"
+			(at 254 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "PARTNO" ""
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6431a19f-0110-470c-a461-7a1c74f4f41b")
+		)
+		(pin "2"
+			(uuid "418695a2-c623-4cbc-9f3b-2aa315362d70")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "BTN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MaTouch 1.9“ TFT Breakout v1.1-eagle-import:+3V3")
+		(at 269.24 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f0f307d-4144-4942-b2f8-e6f6e59e2bca")
+		(property "Reference" "#+3V015"
+			(at 269.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 272.034 137.16 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84634bb3-1b46-4122-b6dc-701c2ae55b6e")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#+3V015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 101.6 93.98 90)
 		(mirror x)
@@ -14408,6 +14976,178 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MaTouch 1.9“ TFT Breakout v1.1-eagle-import:+3V3")
+		(at 185.42 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41cab347-8a2c-40e3-b3e2-657f1f6e4d8c")
+		(property "Reference" "#+3V01"
+			(at 185.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 188.214 137.16 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c3f4a09-cbc6-48d1-9c41-89dd64ea1fa5")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#+3V01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.42 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "428917bf-5cf6-4d9f-8dfc-b99e2216b381")
+		(property "Reference" "R3"
+			(at 182.88 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 185.42 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 183.642 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MNF PART NUMBER" "C25744"
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94ac0ab4-fa7e-4e53-a7be-4fd49b25b90d")
+		)
+		(pin "2"
+			(uuid "566e23ea-b18e-43ff-b823-b35ccb2340de")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14981,6 +15721,71 @@
 		)
 	)
 	(symbol
+		(lib_id "MaTouch 1.9“ TFT Breakout v1.1-eagle-import:+3V3")
+		(at 237.49 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4be8e398-8137-44a1-9f82-bb5b1fc1edee")
+		(property "Reference" "#+3V07"
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 240.284 137.16 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "748198c1-fefc-4264-92a7-28bbba77a0a8")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#+3V07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 325.12 36.83 0)
 		(unit 1)
@@ -15147,6 +15952,71 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MaTouch 1.9“ TFT Breakout v1.1-eagle-import:+3V3")
+		(at 220.98 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dac7cbc-0921-4fe9-8458-8196300eea06")
+		(property "Reference" "#+3V06"
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 223.774 137.16 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f0ef838-67fe-49ca-859e-731b80ee7366")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#+3V06")
 					(unit 1)
 				)
 			)
@@ -15926,6 +16796,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 252.73 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "620c4d58-745f-48fd-beb1-ba83515d44ab")
+		(property "Reference" "R8"
+			(at 250.19 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 252.73 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 250.952 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MNF PART NUMBER" "C25744"
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6012a891-7aa3-4b6e-a349-5d03e7995535")
+		)
+		(pin "2"
+			(uuid "346ad00c-6b3d-4aee-99b3-20b844c68c52")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x18_Pin")
 		(at 372.11 45.72 0)
 		(unit 1)
@@ -16044,6 +17021,113 @@
 			(project ""
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 269.24 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63b4e616-37eb-49fe-8378-89f5fb42fb07")
+		(property "Reference" "R9"
+			(at 266.7 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 269.24 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 267.462 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MNF PART NUMBER" "C25744"
+			(at 269.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 269.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 269.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 269.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 269.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1886fc3f-4271-42e0-9d0c-e2100fd3b614")
+		)
+		(pin "2"
+			(uuid "43ceddd7-6226-482e-a04e-a112957031a8")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -16725,6 +17809,101 @@
 			(project ""
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 185.42 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fab4e0e-cb7e-467f-9892-f0f511488a74")
+		(property "Reference" "BTN2"
+			(at 186.69 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BTN"
+			(at 186.69 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 180.34 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 185.42 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF PART NUMBER" "C318884"
+			(at 186.69 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "PARTNO" ""
+			(at 185.42 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at 185.42 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "439403e9-31ec-409b-b251-0828e30b9773")
+		)
+		(pin "2"
+			(uuid "d3addd5b-7936-452f-9b2c-cd0067421fbd")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "BTN2")
 					(unit 1)
 				)
 			)
@@ -17553,6 +18732,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 203.2 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82aa4aaa-1fe3-445d-a52a-e4fa7dc2a7e2")
+		(property "Reference" "#PWR036"
+			(at 203.2 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a532644-e582-415f-9525-69c5d193f8b0")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 353.06 60.96 270)
 		(unit 1)
@@ -17994,6 +19238,71 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#SUPPLY01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89ddc6db-de6e-4821-9d9b-908949d334d5")
+		(property "Reference" "#PWR039"
+			(at 252.73 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cf2f9b4-1eb2-4680-a49f-e5d22ee61351")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18549,6 +19858,101 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 237.49 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93a61eb1-a1dc-4412-a000-c6168f073cd0")
+		(property "Reference" "BTN5"
+			(at 238.76 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BTN"
+			(at 238.76 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 232.41 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 237.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF PART NUMBER" "C318884"
+			(at 238.76 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "PARTNO" ""
+			(at 237.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at 237.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40cae4ed-c1d5-4c7f-913f-79c4bc86d487")
+		)
+		(pin "2"
+			(uuid "3cdac8ca-03c2-4a30-b585-4757762bc5d5")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "BTN5")
 					(unit 1)
 				)
 			)
@@ -19888,6 +21292,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 220.98 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a75d8c3f-f0c7-44ea-8f9f-b862f675835b")
+		(property "Reference" "BTN4"
+			(at 222.25 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BTN"
+			(at 222.25 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 215.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 220.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF PART NUMBER" "C318884"
+			(at 222.25 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "PARTNO" ""
+			(at 220.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at 220.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5eb23c74-4005-4697-998f-f5a32622a696")
+		)
+		(pin "2"
+			(uuid "53c7e90c-1b1a-40ca-b815-f4690a5c0e2e")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "BTN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 21.59 38.1 0)
 		(unit 1)
@@ -20165,6 +21664,101 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 269.24 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aea63099-56c8-4a8d-a973-28c0660338f6")
+		(property "Reference" "BTN7"
+			(at 270.51 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BTN"
+			(at 270.51 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 264.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 269.24 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF PART NUMBER" "C318884"
+			(at 270.51 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "PARTNO" ""
+			(at 269.24 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at 269.24 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84ef0302-1d15-46af-9b67-a6d2467a479f")
+		)
+		(pin "2"
+			(uuid "d1ab9b11-03e4-4bb3-9524-833b4a96e66e")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "BTN7")
 					(unit 1)
 				)
 			)
@@ -20635,6 +22229,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 237.49 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b74b2c25-b7fa-4cd2-9529-b0f7366c5728")
+		(property "Reference" "R7"
+			(at 234.95 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 237.49 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 235.712 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MNF PART NUMBER" "C25744"
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4db37901-9849-47cd-ae06-5bad403412c3")
+		)
+		(pin "2"
+			(uuid "1b0fb13f-ed2b-417a-ad1e-6461dff5aeec")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MaTouch 1.9“ TFT Breakout v1.1-eagle-import:+3V3")
 		(at 109.22 109.22 0)
 		(mirror y)
@@ -21072,113 +22773,6 @@
 			(project ""
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 222.25 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4b19298-4e6b-4eb3-8511-66918ebb1306")
-		(property "Reference" "R4"
-			(at 219.71 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 222.25 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 220.472 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MNF PART NUMBER" "C25744"
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01007da1-db21-4f4b-ae58-69541883fb6e")
-		)
-		(pin "2"
-			(uuid "8b6d1ae4-1f10-4bed-bf77-e502327df358")
-		)
-		(instances
-			(project "esp32_mine"
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -22047,6 +23641,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 237.49 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d16cf41d-ef4b-42b4-8cf4-12532bbdfb91")
+		(property "Reference" "#PWR038"
+			(at 237.49 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2a29286-57fc-42d5-9d67-1bc1ed274f80")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 55.88 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22588,6 +24247,71 @@
 		)
 	)
 	(symbol
+		(lib_id "MaTouch 1.9“ TFT Breakout v1.1-eagle-import:+3V3")
+		(at 203.2 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e66fa068-e970-451c-9723-0f3a1d8f1327")
+		(property "Reference" "#+3V03"
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 205.994 137.16 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8411fd4b-cb0c-4ae7-9cb8-353c38042b9a")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#+3V03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 132.08 64.77 0)
 		(unit 1)
@@ -22692,6 +24416,113 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.98 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6fe658d-edf5-45ba-b29d-20d963d8c2c3")
+		(property "Reference" "R6"
+			(at 218.44 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 220.98 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 219.202 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MNF PART NUMBER" "C25744"
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac07946a-a178-4f41-9cbb-2c80ec3d48b4")
+		)
+		(pin "2"
+			(uuid "63252fe4-d303-4d21-8bde-5e12dd287dca")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -22874,6 +24705,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 185.42 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e89f8508-4b40-441d-a81a-d147b66bacec")
+		(property "Reference" "#PWR01"
+			(at 185.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f80a995c-374f-4a5c-8177-9c542bbddbe5")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 168.91 39.37 0)
 		(unit 1)
@@ -23041,71 +24937,6 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MaTouch 1.9“ TFT Breakout v1.1-eagle-import:+3V3")
-		(at 222.25 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f357b45a-3aa8-4f7d-b0b2-5b88e8a03e84")
-		(property "Reference" "#+3V020"
-			(at 222.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 225.044 86.36 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "778e0fe0-e00e-40ae-99c9-95b654af6f22")
-		)
-		(instances
-			(project "esp32_mine"
-				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
-					(reference "#+3V020")
 					(unit 1)
 				)
 			)
@@ -23344,6 +25175,113 @@
 			(project "esp32_mine"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#+3V026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fed40876-a3be-4e17-8688-42f1155fd608")
+		(property "Reference" "R5"
+			(at 200.66 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 203.2 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 201.422 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MNF PART NUMBER" "C25744"
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "868883d1-cb5f-4676-9968-e365831533fd")
+		)
+		(pin "2"
+			(uuid "a1f49444-382f-4106-b798-51c2779fa486")
+		)
+		(instances
+			(project "CCCFr_ESP32_devboard"
+				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+					(reference "R5")
 					(unit 1)
 				)
 			)
