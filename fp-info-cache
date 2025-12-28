@@ -1,4 +1,4 @@
-28311209975701935
+28314743862461417
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -78862,6 +78862,13 @@ SparkFun Raspberry Pi Hat Connector SMD Passthrough
 40
 40
 PCM_SparkFun-Connector
+SIP-2
+
+
+0
+2
+2
+PCM_SparkFun-Connector
 SMA_Edge_6.3mm
 SMA Antenna Connector
 SparkFun
@@ -112461,6 +112468,13 @@ TPS61023DRLR_SOT-563
 0
 6
 6
+kustom
+Untitled
+
+
+0
+0
+0
 kustom
 XL-1615RGBC-2812B
 
